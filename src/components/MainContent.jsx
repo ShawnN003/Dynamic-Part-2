@@ -5,8 +5,8 @@ export default function MainContent() {
         data.map((pokemon) => (
 
             <div className='card'>
-                <div  key={pokemon.id}>
-                    <h2>{pokemon.name}</h2>
+                <div key={pokemon.id}>
+                    <h2 className="pokemon-name">{pokemon.name}</h2>
                     <h3>Health Pool: {pokemon.hp}</h3>
                     <h3>Attack power: {pokemon.attack}</h3>
                     <h3>Defense: {pokemon.defense}</h3>
