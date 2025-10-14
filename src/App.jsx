@@ -1,12 +1,15 @@
+import Header from './components/Header'
+import MainContent from './components/MainContent'
+import Footer from './components/Footer'
 import './App.css'
 
 function App() {
 
   return (
     <>
-      <div>
-        <h1>Testing</h1>
-      </div>
+      <Header/>
+      <MainContent/>
+      <Footer/>
     </>
   )
 }
