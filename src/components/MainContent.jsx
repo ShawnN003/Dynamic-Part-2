@@ -8,7 +8,9 @@ export default function MainContent() {
                 <div  key={pokemon.id}>
                     <h2>{pokemon.name}</h2>
                     <h3>Health Pool: {pokemon.hp}</h3>
-                    <img src={pokemon.image}></img>
+                    <h3>Attack power: {pokemon.attack}</h3>
+                    <h3>Defense: {pokemon.defense}</h3>
+                    <img src={pokemon.image}></img>  
                 </div>
             </div>
         ))
