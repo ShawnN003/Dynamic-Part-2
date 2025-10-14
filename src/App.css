@@ -1,3 +1,15 @@
 html{
-    background-color: aqua;
+    background-color: rgb(255, 246, 170);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Poppins';
+}
+
+#title {
+    font-size: 50px;
+    text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.4);
 }
